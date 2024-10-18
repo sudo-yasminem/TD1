@@ -33,7 +33,7 @@ int main(){
     std::cout << "Solde actuel: " << Solde << " EUR" << std::endl;
     std::cout << std::endl;
 
-    std::string status_virement = a.Virement(a,b,10);
+    std::string status_virement = a.Virement(b,10);
     std::cout << status_virement << std::endl;
     Solde = b.getSolde();
     std::cout << "Solde après Virement reçu: " << Solde << " EUR chez " << fullname2 << " de la part de " << fullname << std::endl;
